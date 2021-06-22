@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="icon" href ="#" alt="favicon">
+
+    <!-- CSS file is called into this HTML file -->
+    <link rel = "stylesheet" href= "asset/style.css"/> 
+</head>
+<body>
+<div class="container">
+<div class="header">
+    <h2 id ="heading">Sign Up Form</h2>
+</div>
+<!-- form field creation  -->
+<form class = "form">
+    <div class="form-control">
+        <label for ="username" name="username" >User Name</label>
+        <input id = "txtUserName" type = "text" name = "username" placeholder ="Username"/>
+        <small>Error Message</small>       
+    </div>
+
+    <div class="form-control">
+        <label for ="email" name="email"> Email</label>
+        <input  id = "txtEmail" type = "email" name = "email" placeholder ="Email"/>
+        <small> Error Message</small>       
+    </div>
+
+    <div class="form-control">
+        <label for ="pwd" name="pwd">Password</label>
+        <input id = "txtPwd" type = "password" name = "pwd" placeholder ="Password"/>
+        <small> Error Message</small>      
+    </div>
+
+    <div class="form-control">
+        <label for ="conpwd" name="conpwd"> Confirm Password</label>
+        <input id = "txtConPwd" type = "password" name = "conpwd" placeholder ="Confirmed Password"/>
+        <small> Error Message</small>       
+    </div>
+
+    <div class="form-control">
+        <button>Sign Up</button>
+    </div>
+    <div>
+        <h5 id="footer">Produced by Okolo Daniel</h5>
+    </div>
+</form>
+
+
+</div>
+
+
+<!-- Javascript file is called into this HTML file -->
+    <script src ="asset/App.js"></script>
+</body>
+</html>
